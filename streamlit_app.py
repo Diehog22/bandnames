@@ -39,32 +39,71 @@ st.markdown("""
 st.markdown("<div class='title'>🎸 Generador de Nombres de Bandas</div>", unsafe_allow_html=True)
 st.markdown("<div class='subtitle'>Modo Terminal Hacker — Verde Neón</div>", unsafe_allow_html=True)
 
+# -------------------------
+# ADJETIVOS — MÁS, MÁS Y MÁS
+# -------------------------
+
 adjetivos = [
-    "Cósmicos","Eléctricos","Rotos","Despiertos","Ancestros","Flotantes","Héreticos", "Sagrados",
-    "Flameantes","Magnéticos","Caóticos","Octagenarios","Fánaticos","Prohibidos","Dementes","Celestes",
+    "Cósmicos","Eléctricos","Rotos","Despiertos","Ancestros","Flotantes","Heréticos","Sagrados",
+    "Flameantes","Magnéticos","Caóticos","Octogenarios","Fanáticos","Prohibidos","Dementes","Celestes",
     "Errantes","Infinitos","Estúpidos","Atontados","Nauseabundos","Aguerridos","Ocultos","Cuánticos",
-    "Salvajes","Místicos","Gloriosos","Brujos","Obesos,"Tercermundistas","Indómitos","Dionisiacos","Primitivos",
-    "Homosexuales","Aplastantes"
+    "Salvajes","Místicos","Gloriosos","Brujos","Obesos","Tercermundistas","Indómitos","Dionisiacos",
+    "Primitivos","Aplastantes","Ultravioletas","Psicodélicos","Mutantes","Astroquímicos","Holográficos",
+    "Hiperdimensionales","Putrefactos","Irradiados","Dementemente Fluorescentes","Transgénericos",
+    "Ancestralmente Ridículos","Esponjosos","Convulsivos","Ciclotrónicos","Paranoicos","Oníricos",
+    "Colapsados","Radioactivos","Descompuestos","Cromáticos","Lumínicos","Telepáticos","Ruidosos",
+    "Extraviados","Gargantuescos","Neonizados","Desorbitados","Interstelares"
 ]
+
+# -------------------------
+# SUSTANTIVOS — MÁS INSANOS TODAVÍA
+# -------------------------
 
 sustantivos = [
     "Molcajetes","Dragones","Cactus","Esqueletos","Astronautas","Peregrinos","Gatos","Inodoros",
-    "Calcetines","Trituradores","Calabazas","Dinosaurios","Políticos","Guerreros","Cometas","Píxeles","Cafés",
-    "Magos","Pescadores","Sadistas","Militares","Soldados","Hechiceros","Vagabundos","Vikingos","Caballos","Tronos",
-    "Monolitos","Trenes","Cerdos","Terricolas","Alienígenas","Inmortales","Guerrilleros","Hombres de Negocio"
+    "Calcetines","Trituradores","Calabazas","Dinosaurios","Políticos","Guerreros","Cometas",
+    "Píxeles","Cafés","Magos","Pescadores","Sadistas","Militares","Soldados","Hechiceros",
+    "Vagabundos","Vikingos","Caballos","Tronos","Monolitos","Trenes","Cerdos","Terrícolas",
+    "Alienígenas","Inmortales","Guerrilleros","Hombres de Negocio","Murciélagos","Bufones",
+    "Pantógrafos","Gelatinas","Parásitos","Rinocerontes","Cerebros","Sándwiches","Homúnculos",
+    "Robots","Espectros","Pulsares","Goblins","Chilaquiles","Torniquetes","Cíclopes",
+    "Esfinges","Cuervos","Fantasmales Tornillos","Ninjas","Tamalitos","Saqueadores",
+    "Entes","Mutantes Acuáticos","Mecanoides","Sirenas","Avestruces Galácticos"
 ]
 
+# -------------------------
+# ESTILOS — OSCUROS, ILÓGICOS Y NEÓN
+# -------------------------
+
 estilos = [
-    "del Desierto","del Inframundo","Intergalácticos","del Caribe","del Futuro","Del Infierno",
-    "Esquizofrenicos","Satanicos","Travestis","del Soviet","de la Montaña","Radioactivos","del Cosmos",
-    "de Tijuana","de Saturno","de la Jungla","del Olimpo","Terrorificos","De Ecatepec"
+    "del Desierto","del Inframundo","Intergalácticos","del Caribe","del Futuro","del Infierno",
+    "Esquizofrénicos","Satánicos","Travestis","del Soviet","de la Montaña","Radioactivos","del Cosmos",
+    "de Tijuana","de Saturno","de la Jungla","del Olimpo","Terroríficos","de Ecatepec",
+    "del Vórtice Cuántico","del Reino Onírico","del Tiempo Roto","Fluorescentes del Pliegue Dimensional",
+    "del Subsuelo Hiperlumínico","del Valle del Estruendo","del Circuito Demoniaco",
+    "del Cañón Radioactivo","del Mercado de las Sombras","Extraterrestres de la Azotea",
+    "del Abismo Fosforescente","de la Nebulosa Rosa","del Carnaval Mutante","del Portal Neón",
+    "del Submundo Ancestral"
 ]
+
+# -------------------------
+# FUNCIÓN
+# -------------------------
 
 def generar_banda():
     a = random.choice(adjetivos)
     b = random.choice(sustantivos)
     c = random.choice(estilos)
-    return random.choice([f"{b} {a}", f"{a} {b}", f"{b} {c}"])
+    return random.choice([
+        f"{a} {b}",
+        f"{b} {a}",
+        f"{b} {c}",
+        f"{a} {b} {c}"
+    ])
+
+# -------------------------
+# BOTÓN
+# -------------------------
 
 if st.button("🎵 Generar Nombre de Banda", use_container_width=True):
     nombre = generar_banda()
