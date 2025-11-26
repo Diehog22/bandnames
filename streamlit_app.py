@@ -21,14 +21,14 @@ st.markdown("<div class='subtitle'>Crea nombres épicos, ridículos o legendario
 
 adjetivos = ["Cósmicos","Eléctricos","Rotos","Despiertos","Ancestros","Flotantes","Héreticos", "Sagrados","Flameantes"
              "Magnéticos","Caóticos","Octagenarios","Fánaticos","Prohibidos","Dementes","Celestes","Errantes","Infinitos","Estúpidos","Atontados","Nauseabundos","Aguerridos",
-             "Ocultos","Cuánticos","Salvajes","Místicos","Gloriosos","Brujos","Hechiceros","Indómitos","Dionisiacos"]
+             "Ocultos","Cuánticos","Salvajes","Místicos","Gloriosos","Brujos","Hechiceros","Indómitos","Dionisiacos","Primitivos","Homosexuales","Aplastantes"]
 
-sustantivos = ["Molcajetes","Dragones","Cactus","Esqueletos","Astronautas","Peregrinos","Gatos","Inodoros","Calcetines"
-               "Dinosaurios","Guerreros","Cometas","Píxeles","Cafés","Magos","Pescadores","Sadistas","Militares","Soldados"
-               "Vikingos","Caballos","Tronos","Monolitos","Trenes","Cerdos","Terricolas","Alienígenas","Inmortales"]
+sustantivos = ["Molcajetes","Dragones","Cactus","Esqueletos","Astronautas","Peregrinos","Gatos","Inodoros","Calcetines","Trituradores,"Calabazas"
+               "Dinosaurios","Guerreros","Cometas","Píxeles","Cafés","Magos","Pescadores","Sadistas","Militares","Soldados","Vagabundos"
+               "Vikingos","Caballos","Tronos","Monolitos","Trenes","Cerdos","Terricolas","Alienígenas","Inmortales","Guerrilleros","Hombres de Negocio"]
 
-estilos = ["del Desierto","del Inframundo","Intergalácticos","del Caribe","del Futuro","Del Infierno","Esquizofrenicos","Satanicos"
-           "de la Montaña","Radioactivos","del Cosmos","de Tijuana","de Saturno","de la Jungla","del Olimpo"]
+estilos = ["del Desierto","del Inframundo","Intergalácticos","del Caribe","del Futuro","Del Infierno","Esquizofrenicos","Satanicos","Travestis","del Soviet",
+           "de la Montaña","Radioactivos","del Cosmos","de Tijuana","de Saturno","de la Jungla","del Olimpo","Terrorificos","De Ecatepec"]
 
 def generar_banda():
     a = random.choice(adjetivos)
