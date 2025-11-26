@@ -20,14 +20,14 @@ st.markdown("<div class='title'>🎸 Generador de Nombres de Bandas</div>", unsa
 st.markdown("<div class='subtitle'>Crea nombres épicos, ridículos o legendarios para tu próxima banda</div>", unsafe_allow_html=True)
 
 adjetivos = ["Cósmicos","Eléctricos","Rotos","Despiertos","Ancestros","Flotantes","Héreticos", "Sagrados","Flameantes"
-             "Magnéticos","Caóticos","Prohibidos","Dementes","Celestes","Errantes","Infinitos","Estúpidos","Atontados","Nauseabundos","Aguerridos",
+             "Magnéticos","Caóticos","Octagenarios","Fánaticos","Prohibidos","Dementes","Celestes","Errantes","Infinitos","Estúpidos","Atontados","Nauseabundos","Aguerridos",
              "Ocultos","Cuánticos","Salvajes","Místicos","Gloriosos","Brujos","Hechiceros","Indómitos","Dionisiacos"]
 
 sustantivos = ["Molcajetes","Dragones","Cactus","Esqueletos","Astronautas","Peregrinos","Gatos","Inodoros","Calcetines"
                "Dinosaurios","Guerreros","Cometas","Píxeles","Cafés","Magos","Pescadores","Sadistas","Militares","Soldados"
                "Vikingos","Caballos","Tronos","Monolitos","Trenes","Cerdos","Terricolas","Alienígenas","Inmortales"]
 
-estilos = ["del Desierto","del Inframundo","Intergalácticos","del Caribe","del Futuro",
+estilos = ["del Desierto","del Inframundo","Intergalácticos","del Caribe","del Futuro","Del Infierno","Esquizofrenicos","Satanicos"
            "de la Montaña","Radioactivos","del Cosmos","de Tijuana","de Saturno","de la Jungla","del Olimpo"]
 
 def generar_banda():
