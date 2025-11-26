@@ -5,30 +5,60 @@ st.set_page_config(page_title="Generador de Bandas", page_icon="🎸", layout="c
 
 st.markdown("""
     <style>
-    .title { font-size: 46px; font-weight: 900; text-align: center; color: #E91E63; margin-bottom: 10px; }
-    .subtitle { text-align: center; font-size: 20px; color: #555; margin-bottom: 30px; }
+    body {
+        background-color: #000000;
+    }
+    .title { 
+        font-size: 46px; 
+        font-weight: 900; 
+        text-align: center; 
+        color: #39ff14; 
+        margin-bottom: 10px; 
+    }
+    .subtitle { 
+        text-align: center; 
+        font-size: 20px; 
+        color: #00ff66; 
+        margin-bottom: 30px; 
+    }
     .band-name-box {
-        background: linear-gradient(135deg, #ff6f91, #ff9671);
-        padding: 20px; border-radius: 18px; color: white;
-        font-size: 32px; text-align: center; margin-top: 20px;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.25); font-weight: 700;
+        background: #000000;
+        padding: 20px; 
+        border-radius: 18px; 
+        color: #39ff14;
+        border: 2px solid #39ff14;
+        font-size: 32px; 
+        text-align: center; 
+        margin-top: 20px;
+        box-shadow: 0 0 20px #39ff14;
+        font-weight: 700;
     }
     </style>
 """, unsafe_allow_html=True)
 
 st.markdown("<div class='title'>🎸 Generador de Nombres de Bandas</div>", unsafe_allow_html=True)
-st.markdown("<div class='subtitle'>Crea nombres épicos, ridículos o legendarios para tu próxima banda</div>", unsafe_allow_html=True)
+st.markdown("<div class='subtitle'>Modo Terminal Hacker — Verde Neón</div>", unsafe_allow_html=True)
 
-adjetivos = ["Cósmicos","Eléctricos","Rotos","Despiertos","Ancestros","Flotantes","Héreticos", "Sagrados","Flameantes"
-             "Magnéticos","Caóticos","Octagenarios","Fánaticos","Prohibidos","Dementes","Celestes","Errantes","Infinitos","Estúpidos","Atontados","Nauseabundos","Aguerridos",
-             "Ocultos","Cuánticos","Salvajes","Místicos","Gloriosos","Brujos","Hechiceros","Indómitos","Dionisiacos","Primitivos","Homosexuales","Aplastantes"]
+adjetivos = [
+    "Cósmicos","Elécticos","Rotos","Despiertos","Ancestros","Flotantes","Héreticos", "Sagrados",
+    "Flameantes","Magnéticos","Caóticos","Octagenarios","Fánaticos","Prohibidos","Dementes","Celestes",
+    "Errantes","Infinitos","Estúpidos","Atontados","Nauseabundos","Aguerridos","Ocultos","Cuánticos",
+    "Salvajes","Místicos","Gloriosos","Brujos","Hechiceros","Indómitos","Dionisiacos","Primitivos",
+    "Homosexuales","Aplastantes"
+]
 
-sustantivos = ["Molcajetes","Dragones","Cactus","Esqueletos","Astronautas","Peregrinos","Gatos","Inodoros","Calcetines","Trituradores,"Calabazas"
-               "Dinosaurios","Guerreros","Cometas","Píxeles","Cafés","Magos","Pescadores","Sadistas","Militares","Soldados","Vagabundos"
-               "Vikingos","Caballos","Tronos","Monolitos","Trenes","Cerdos","Terricolas","Alienígenas","Inmortales","Guerrilleros","Hombres de Negocio"]
+sustantivos = [
+    "Molcajetes","Dragones","Cactus","Esqueletos","Astronautas","Peregrinos","Gatos","Inodoros",
+    "Calcetines","Trituradores","Calabazas","Dinosaurios","Guerreros","Cometas","Píxeles","Cafés",
+    "Magos","Pescadores","Sadistas","Militares","Soldados","Vagabundos","Vikingos","Caballos","Tronos",
+    "Monolitos","Trenes","Cerdos","Terricolas","Alienígenas","Inmortales","Guerrilleros","Hombres de Negocio"
+]
 
-estilos = ["del Desierto","del Inframundo","Intergalácticos","del Caribe","del Futuro","Del Infierno","Esquizofrenicos","Satanicos","Travestis","del Soviet",
-           "de la Montaña","Radioactivos","del Cosmos","de Tijuana","de Saturno","de la Jungla","del Olimpo","Terrorificos","De Ecatepec"]
+estilos = [
+    "del Desierto","del Inframundo","Intergalácticos","del Caribe","del Futuro","Del Infierno",
+    "Esquizofrenicos","Satanicos","Travestis","del Soviet","de la Montaña","Radioactivos","del Cosmos",
+    "de Tijuana","de Saturno","de la Jungla","del Olimpo","Terrorificos","De Ecatepec"
+]
 
 def generar_banda():
     a = random.choice(adjetivos)
