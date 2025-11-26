@@ -23,7 +23,7 @@ adjetivos = ["Cósmicos","Eléctricos","Rotos","Despiertos","Ancestros","Flotant
              "Magnéticos","Caóticos","Octagenarios","Fánaticos","Prohibidos","Dementes","Celestes","Errantes","Infinitos","Estúpidos","Atontados","Nauseabundos","Aguerridos",
              "Ocultos","Cuánticos","Salvajes","Místicos","Gloriosos","Brujos","Hechiceros","Indómitos","Dionisiacos","Primitivos","Homosexuales","Aplastantes"]
 
-sustantivos = ["Molcajetes","Dragones","Cactus","Esqueletos","Astronautas","Peregrinos","Gatos","Inodoros","Calcetines","Trituradores,"Calabazas",
+sustantivos = ["Molcajetes","Dragones","Cactus","Esqueletos","Astronautas","Peregrinos","Gatos","Inodoros","Calcetines","Trituradores,"Calabazas"
                "Dinosaurios","Guerreros","Cometas","Píxeles","Cafés","Magos","Pescadores","Sadistas","Militares","Soldados","Vagabundos"
                "Vikingos","Caballos","Tronos","Monolitos","Trenes","Cerdos","Terricolas","Alienígenas","Inmortales","Guerrilleros","Hombres de Negocio"]
 
