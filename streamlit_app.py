@@ -40,17 +40,17 @@ st.markdown("<div class='title'>🎸 Generador de Nombres de Bandas</div>", unsa
 st.markdown("<div class='subtitle'>Modo Terminal Hacker — Verde Neón</div>", unsafe_allow_html=True)
 
 adjetivos = [
-    "Cósmicos","Elécticos","Rotos","Despiertos","Ancestros","Flotantes","Héreticos", "Sagrados",
+    "Cósmicos","Eléctricos","Rotos","Despiertos","Ancestros","Flotantes","Héreticos", "Sagrados",
     "Flameantes","Magnéticos","Caóticos","Octagenarios","Fánaticos","Prohibidos","Dementes","Celestes",
     "Errantes","Infinitos","Estúpidos","Atontados","Nauseabundos","Aguerridos","Ocultos","Cuánticos",
-    "Salvajes","Místicos","Gloriosos","Brujos","Hechiceros","Indómitos","Dionisiacos","Primitivos",
+    "Salvajes","Místicos","Gloriosos","Brujos","Obesos,"Tercermundistas","Indómitos","Dionisiacos","Primitivos",
     "Homosexuales","Aplastantes"
 ]
 
 sustantivos = [
     "Molcajetes","Dragones","Cactus","Esqueletos","Astronautas","Peregrinos","Gatos","Inodoros",
-    "Calcetines","Trituradores","Calabazas","Dinosaurios","Guerreros","Cometas","Píxeles","Cafés",
-    "Magos","Pescadores","Sadistas","Militares","Soldados","Vagabundos","Vikingos","Caballos","Tronos",
+    "Calcetines","Trituradores","Calabazas","Dinosaurios","Políticos","Guerreros","Cometas","Píxeles","Cafés",
+    "Magos","Pescadores","Sadistas","Militares","Soldados","Hechiceros","Vagabundos","Vikingos","Caballos","Tronos",
     "Monolitos","Trenes","Cerdos","Terricolas","Alienígenas","Inmortales","Guerrilleros","Hombres de Negocio"
 ]
 
