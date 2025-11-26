@@ -19,13 +19,13 @@ st.markdown("""
 st.markdown("<div class='title'>🎸 Generador de Nombres de Bandas</div>", unsafe_allow_html=True)
 st.markdown("<div class='subtitle'>Crea nombres épicos, ridículos o legendarios para tu próxima banda</div>", unsafe_allow_html=True)
 
-adjetivos = ["Cósmicos","Eléctricos","Rotos","Despiertos","Ancestros","Flotantes","Sagrados",
-             "Magnéticos","Caóticos","Prohibidos","Dementes","Celestes","Errantes","Infinitos",
-             "Ocultos","Cuánticos","Salvajes","Místicos","Gloriosos","Brujos"]
+adjetivos = ["Cósmicos","Eléctricos","Rotos","Despiertos","Ancestros","Flotantes","Héreticos", "Sagrados","Flameantes"
+             "Magnéticos","Caóticos","Prohibidos","Dementes","Celestes","Errantes","Infinitos","Estúpidos","Atontados","Nauseabundos","Aguerridos",
+             "Ocultos","Cuánticos","Salvajes","Místicos","Gloriosos","Brujos","Hechiceros","Indómitos","Dionisiacos"]
 
-sustantivos = ["Molcajetes","Dragones","Cactus","Esqueletos","Astronautas","Peregrinos","Gatos",
-               "Dinosaurios","Guerreros","Cometas","Píxeles","Cafés","Magos","Pescadores",
-               "Vikingos","Caballos","Tronos","Monolitos","Trenes","Cerdos"]
+sustantivos = ["Molcajetes","Dragones","Cactus","Esqueletos","Astronautas","Peregrinos","Gatos","Inodoros","Calcetines"
+               "Dinosaurios","Guerreros","Cometas","Píxeles","Cafés","Magos","Pescadores","Sadistas","Militares","Soldados"
+               "Vikingos","Caballos","Tronos","Monolitos","Trenes","Cerdos","Terricolas","Alienígenas","Inmortales"]
 
 estilos = ["del Desierto","del Inframundo","Intergalácticos","del Caribe","del Futuro",
            "de la Montaña","Radioactivos","del Cosmos","de Tijuana","de Saturno","de la Jungla","del Olimpo"]
